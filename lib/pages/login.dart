@@ -169,6 +169,33 @@ class _LoginPageState extends State<LoginPage> {
               ],
             ),
           ),
+          SizedBox(height: 20),
+          Center(
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(50),
+              child: Container(
+                height: 50,
+                width: 300,
+                decoration: BoxDecoration(
+                  color: BlueClr,
+                ),
+                child: GestureDetector(
+                  onTap: () {
+                    Get.to(HomePage());
+                  },
+                  child: Center(
+                    child: Text(
+                      'Sign In',
+                      style: TextStyle(
+                        fontSize: 23,
+                        color: WhiteClr,
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ),
         ],
       ),
     );

@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
+import 'package:enjoy_rolet/pages/home.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -162,6 +163,33 @@ class _SignUpState extends State<SignUp> {
                   ),
                 )
               ],
+            ),
+          ),
+          SizedBox(height: 20),
+          Center(
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(50),
+              child: Container(
+                height: 50,
+                width: 300,
+                decoration: BoxDecoration(
+                  color: BlueClr,
+                ),
+                child: GestureDetector(
+                  onTap: () {
+                    Get.to(HomePage());
+                  },
+                  child: Center(
+                    child: Text(
+                      'Sign Up',
+                      style: TextStyle(
+                        fontSize: 23,
+                        color: WhiteClr,
+                      ),
+                    ),
+                  ),
+                ),
+              ),
             ),
           ),
         ],
