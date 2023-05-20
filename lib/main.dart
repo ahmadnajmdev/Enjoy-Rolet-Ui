@@ -1,5 +1,4 @@
 import 'package:enjoy_rolet/pages/welcone.dart';
-import 'package:enjoy_rolet/theme/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

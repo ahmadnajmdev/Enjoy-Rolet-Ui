@@ -3,8 +3,6 @@
 import 'package:enjoy_rolet/pages/signup.dart';
 import 'package:enjoy_rolet/theme/colors.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:get/get.dart';
 
 import 'login.dart';

@@ -1,10 +1,5 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first, prefer_const_constructors
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
-
-import 'package:enjoy_rolet/theme/colors.dart';
-
 import '../theme/colors.dart';
 
 class TRANSACTIONS extends StatelessWidget {

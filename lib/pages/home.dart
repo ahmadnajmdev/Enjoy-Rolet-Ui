@@ -4,8 +4,6 @@ import 'package:enjoy_rolet/theme/colors.dart';
 import 'package:enjoy_rolet/widgets/Functions.dart';
 import 'package:enjoy_rolet/widgets/TRANSACTIONS.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
