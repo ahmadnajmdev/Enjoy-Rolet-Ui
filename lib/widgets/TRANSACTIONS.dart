@@ -18,12 +18,12 @@ class TRANSACTIONS extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.all(6),
-      height: 60,
+      padding: EdgeInsets.all(10),
+      height: 70,
       width: 400,
       decoration: BoxDecoration(
           color: WhiteClr,
-          border: Border.all(),
+          border: Border.all(color: greyClr),
           borderRadius: BorderRadius.circular(12)),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
